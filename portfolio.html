@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>John Lee T. Furog — Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">JL<span>.</span>Furog</div>
+        <nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero -->
+    <section id="hero" class="content-section active">
+        <div class="hero-content">
+        <p class="hero-eyebrow">Welcome to my portfolio</p>
+        <h1><span class="hero-name">John Lee T. Furog</span></h1>
+        <p class="hero-typed"><span id="typed-text"></span><span id="cursor">|</span></p>
+        <a href="#projects" class="btn btn-primary see-work-btn">See My Work</a>
+        &nbsp;
+        <a href="#contact" class="btn btn-outline contact-nav-btn">Get In Touch</a>
+        </div>
+    </section>
+    
+    <!-- About -->
+    <section id="about" class="content-section alt-bg">
+        <div class="section-header">
+        <p class="section-eyebrow">Get to know me</p>
+        <h2>About Me</h2>
+        <div class="section-divider"></div>
+        </div>
+        <div class="about-container">
+        <div class="about-img-wrap">
+            <img src="me.jpg" alt="Profile" class="about-img"/>
+        </div>
+        <div class="about-text">
+            <p>My name is John Lee Furog from Balintawak, Talibon, Bohol, and I enjoy learning about technology and creating projects using electronics and programming. I consider myself curious, determined, and always willing to improve. I like working on new ideas, solving problems, and helping others whenever I can.</p>
+            <p>As a Computer Engineering student, I love turning ideas into real, working things whether that's code, circuits, or creative projects. Building and experimenting with technology excites me because it allows me to bring concepts to life and solve real-world problems. I enjoy learning new skills, collaborating
+                with others, and challenging myself through hands-on projects. My goal is to grow into an engineer who creates technology that makes a positive impact on people's lives.</p>
+            <div class="about-tags">
+            <span class="tag">Computer Engineering</span>
+            <span class="tag">University of Bohol</span>
+            <span class="tag">Bohol, Philippines</span>
+            <span class="tag">1st Year College</span>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- Skills -->
+    <section id="skills" class="content-section">
+        <div class="section-header">
+        <p class="section-eyebrow">What I work with</p>
+        <h2>My Skills</h2>
+        <div class="section-divider"></div>
+        </div>
+    
+        <div class="skill-groups">
+    
+        <!-- SOFTWARE -->
+        <div class="skill-group-card">
+            <div class="skill-group-header">
+            <span class="skill-group-icon">&lt;/&gt;</span>
+            <span class="skill-group-label">SOFTWARE</span>
+            </div>
+            <div class="skill-list">
+            <div class="skill-row" data-score="45">
+                <div class="skill-meta">
+                <span class="skill-name">C / C++</span>
+                <span class="skill-level">BEGINNER</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="4 "></div>
+                <span class="skill-score">45 / 100</span>
+            </div>
+            <div class="skill-row" data-score="20">
+                <div class="skill-meta">
+                <span class="skill-name">Java</span>
+                <span class="skill-level">BEGINNER</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="2"></div>
+                <span class="skill-score">20 / 100</span>
+            </div>
+            <div class="skill-row" data-score="57">
+                <div class="skill-meta">
+                <span class="skill-name">HTML / JS / CSS</span>
+                <span class="skill-level">INTERMEDIATE</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="5"></div>
+                <span class="skill-score">57 / 100</span>
+            </div>
+            </div>
+        </div>
+    
+        <!-- HARDWARE -->
+        <div class="skill-group-card">
+            <div class="skill-group-header">
+            <span class="skill-group-icon">⇄</span>
+            <span class="skill-group-label">HARDWARE</span>
+            </div>
+            <div class="skill-list">
+            <div class="skill-row" data-score="65">
+                <div class="skill-meta">
+                <span class="skill-name">Soldering</span>
+                <span class="skill-level">INTERMEDIATE</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="6"></div>
+                <span class="skill-score">65 / 100</span>
+            </div>
+            <div class="skill-row" data-score="70">
+                <div class="skill-meta">
+                <span class="skill-name">Wiring</span>
+                <span class="skill-level">INTERMEDIATE</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="11"></div>
+                <span class="skill-score">70 / 100</span>
+            </div>
+            <div class="skill-row" data-score="50">
+                <div class="skill-meta">
+                <span class="skill-name">Arduino</span>
+                <span class="skill-level">INTERMEDIATE</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="5"></div>
+                <span class="skill-score">50 / 100</span>
+            </div>
+            <div class="skill-row" data-score="50">
+                <div class="skill-meta">
+                <span class="skill-name">ESP32</span>
+                <span class="skill-level">INTERMEDIATE</span>
+                </div>
+                <div class="skill-dots" data-total="25" data-filled="5"></div>
+                <span class="skill-score">50 / 100</span>
+            </div>
+            </div>
+        </div>
+    
+        </div>
+    </section>
+    
+    <!-- Projects -->
+    <section id="projects" class="content-section alt-bg">
+        <div class="section-header">
+        <p class="section-eyebrow">What I've built</p>
+        <h2>My Projects</h2>
+        <div class="section-divider"></div>
+        </div>
+        <div class="project-grid">
+
+        <!-- VORTEX PROJECT CARD -->
+        <div class="project-card vortex-card">
+
+            <div class="carousel">
+            <div class="carousel-track" id="vortex-track">
+                <div class="carousel-slide">
+                <img src="vortex1.jpg" alt="VORTEX Robot - Photo 1" class="carousel-img"/>
+                </div>
+                <div class="carousel-slide">
+                <img src="vortex2.jpg" alt="VORTEX Robot - Photo 2" class="carousel-img"/>
+                </div>
+                <div class="carousel-slide">
+                <img src="vortex3.jpg" alt="VORTEX Robot - Photo 3" class="carousel-img"/>
+                </div>
+                <div class="carousel-slide">
+                <img src="vortex4.jpg" alt="VORTEX Robot - Photo 4" class="carousel-img"/>
+                </div>
+                <div class="carousel-slide">
+                <img src="vortex5.jpg" alt="VORTEX Robot - Photo 5" class="carousel-img"/>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-prev" onclick="carouselPrev('vortex-track','vortex-dots')" aria-label="Previous">&#8592;</button>
+            <button class="carousel-btn carousel-next" onclick="carouselNext('vortex-track','vortex-dots')" aria-label="Next">&#8594;</button>
+            <div class="carousel-dots" id="vortex-dots">
+                <span class="cdot active" onclick="carouselGoTo('vortex-track','vortex-dots',0)"></span>
+                <span class="cdot" onclick="carouselGoTo('vortex-track','vortex-dots',1)"></span>
+                <span class="cdot" onclick="carouselGoTo('vortex-track','vortex-dots',2)"></span>
+                <span class="cdot" onclick="carouselGoTo('vortex-track','vortex-dots',3)"></span>
+                <span class="cdot" onclick="carouselGoTo('vortex-track','vortex-dots',4)"></span>
+            </div>
+            </div>
+
+            <!-- Info -->
+            <div class="project-card-body">
+            <div class="project-title-row">
+                <span class="project-icon-sm">🤖</span>
+                <h3>VORTEX — Autonomous Robot</h3>
+            </div>
+            <p>A multi-mode ESP32 robot controlled over WiFi via WebSockets. Features an autonomous maze-solver using three ultrasonic sensors with PID-tuned wall following, and a Sumo combat mode with IR edge detection and frontal attack logic.</p>
+            <div class="project-tech">
+                <span class="tech-chip">ESP32</span>
+                <span class="tech-chip">C++ / Arduino</span>
+                <span class="tech-chip">WebSockets</span>
+                <span class="tech-chip">PID Control</span>
+                <span class="tech-chip">Ultrasonic</span>
+                <span class="tech-chip">IR Sensors</span>
+            </div>
+            <div class="project-actions">
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener" class="btn btn-primary project-btn">
+                ⬇ Download Code
+                </a>
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener" class="btn btn-outline project-btn">
+                View on GitHub
+                </a>
+            </div>
+            </div>
+        </div>
+
+        <!-- UB REGISTRAR PROJECT CARD -->
+        <div class="project-card vortex-card">
+
+            <!-- Carousel -->
+            <div class="carousel">
+            <div class="carousel-track" id="ub-track">
+                <div class="carousel-slide"><img src="ub1.png" alt="UB Registrar - Photo 1" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub2.png" alt="UB Registrar - Photo 2" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub3.png" alt="UB Registrar - Photo 3" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub4.png" alt="UB Registrar - Photo 4" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub5.png" alt="UB Registrar - Photo 5" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub6.png" alt="UB Registrar - Photo 6" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub7.png" alt="UB Registrar - Photo 7" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="ub8.png" alt="UB Registrar - Photo 8" class="carousel-img"/></div>
+            </div>
+            <button class="carousel-btn carousel-prev" onclick="carouselPrev('ub-track','ub-dots')" aria-label="Previous">&#8592;</button>
+            <button class="carousel-btn carousel-next" onclick="carouselNext('ub-track','ub-dots')" aria-label="Next">&#8594;</button>
+            <div class="carousel-dots" id="ub-dots">
+                <span class="cdot active" onclick="carouselGoTo('ub-track','ub-dots',0)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',1)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',2)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',3)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',4)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',5)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',6)"></span>
+                <span class="cdot" onclick="carouselGoTo('ub-track','ub-dots',7)"></span>
+            </div>
+            </div>
+
+            <!-- Info -->
+            <div class="project-card-body">
+            <div class="project-title-row">
+                <span class="project-icon-sm">🎓</span>
+                <h3>UB Registrar System</h3>
+            </div>
+            <p>A full-stack web system for the University of Bohol's Registrar's Office. Features a Student Portal for requesting documents and tracking status via QR code, and an Admin Panel for managing requests, generating QR stubs, and handling user accounts — all backed by Supabase.</p>
+            <div class="project-tech">
+                <span class="tech-chip">HTML / JS / CSS</span>
+                <span class="tech-chip">Supabase</span>
+                <span class="tech-chip">EmailJS</span>
+                <span class="tech-chip">QR Code</span>
+                <span class="tech-chip">Admin Panel</span>
+                <span class="tech-chip">Student Portal</span>
+            </div>
+            <div class="project-actions">
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO-UB" target="_blank" rel="noopener" class="btn btn-primary project-btn">
+                ⬇ Download Code
+                </a>
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO-UB" target="_blank" rel="noopener" class="btn btn-outline project-btn">
+                View on GitHub
+                </a>
+            </div>
+            </div>
+        </div>
+
+        <!-- MEMBERS PORTAL PROJECT CARD -->
+        <div class="project-card vortex-card">
+
+            <!-- Carousel -->
+            <div class="carousel">
+            <div class="carousel-track" id="mp-track">
+                <div class="carousel-slide"><img src="mp1.png" alt="Members Portal - Photo 1" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="mp2.png" alt="Members Portal - Photo 2" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="mp3.png" alt="Members Portal - Photo 3" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="mp4.png" alt="Members Portal - Photo 4" class="carousel-img"/></div>
+                <div class="carousel-slide"><img src="mp5.png" alt="Members Portal - Photo 5" class="carousel-img"/></div>
+            </div>
+            <button class="carousel-btn carousel-prev" onclick="carouselPrev('mp-track','mp-dots')" aria-label="Previous">&#8592;</button>
+            <button class="carousel-btn carousel-next" onclick="carouselNext('mp-track','mp-dots')" aria-label="Next">&#8594;</button>
+            <div class="carousel-dots" id="mp-dots">
+                <span class="cdot active" onclick="carouselGoTo('mp-track','mp-dots',0)"></span>
+                <span class="cdot" onclick="carouselGoTo('mp-track','mp-dots',1)"></span>
+                <span class="cdot" onclick="carouselGoTo('mp-track','mp-dots',2)"></span>
+                <span class="cdot" onclick="carouselGoTo('mp-track','mp-dots',3)"></span>
+                <span class="cdot" onclick="carouselGoTo('mp-track','mp-dots',4)"></span>
+            </div>
+            </div>
+
+            <!-- Info -->
+            <div class="project-card-body">
+            <div class="project-title-row">
+                <span class="project-icon-sm">🔐</span>
+                <h3>Members Portal / Application Form</h3>
+            </div>
+            <p>A secure login system built with PHP and MySQL. Features SHA-256 password hashing, session management, login attempt logging, and an application form when logged in. All connected to a local MySQL database via PDO.</p><div class="project-tech">
+                <span class="tech-chip">HTML / CSS / JS</span>
+                <span class="tech-chip">PHP</span>
+                <span class="tech-chip">MySQL</span>
+                <span class="tech-chip">PDO</span>
+                <span class="tech-chip">SHA-256</span>
+                <span class="tech-chip">Sessions</span>
+            </div>
+            <div class="project-actions">
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO-MP" target="_blank" rel="noopener" class="btn btn-primary project-btn">
+                ⬇ Download Code
+                </a>
+                <a href="https://github.com/YOUR-USERNAME/YOUR-REPO-MP" target="_blank" rel="noopener" class="btn btn-outline project-btn">
+                View on GitHub
+                </a>
+            </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section id="contact" class="content-section">
+        <div class="section-header">
+        <p class="section-eyebrow">Let's talk</p>
+        <h2>Contact Me</h2>
+        <div class="section-divider"></div>
+        </div>
+        <div class="contact-wrapper">
+        <div class="contact-info">
+            <h3>Got a project in mind?</h3>
+            <p>I'm always open to discussing new opportunities, ideas, or just having a great conversation.</p>
+            <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-item-text">
+                <strong>Email</strong>
+                <span>johnleefurog424@email.com</span>
+            </div>
+            </div>
+            <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div class="contact-item-text">
+                <strong>Phone</strong>
+                <span>09064537550</span>
+            </div>
+            </div>
+            <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-item-text">
+                <strong>Location</strong>
+                <span>Philippines, Purok 4, Balintawak, Talibon, Bohol</span>
+            </div>
+            </div>
+        </div>
+        <form class="contact-form" action="mailto:johnleefurog424@email.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required/>
+            <input type="email" name="email" placeholder="Your Email" required/>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 <span>John Lee T. Furog</span>. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        // ── Typewriter ──
+        const phrases = ["I'm a Computer Engineering Student.", "I love building cool stuff."];
+        let i = 0, j = 0, isDeleting = false;
+        const typedText = document.getElementById("typed-text");
+
+        function type() {
+            const current = phrases[i % phrases.length];
+            typedText.textContent = isDeleting ? current.slice(0, j--) : current.slice(0, j++);
+            if (!isDeleting && j > current.length) { isDeleting = true; setTimeout(type, 1400); return; }
+            if (isDeleting && j < 0)               { isDeleting = false; i++;  setTimeout(type, 400); return; }
+            setTimeout(type, isDeleting ? 45 : 90);
+        }
+        type();
+
+        // ── Skill dots renderer ──
+        function renderDots() {
+            document.querySelectorAll(".skill-dots").forEach(el => {
+                const total  = parseInt(el.dataset.total)  || 25;
+                const filled = parseInt(el.dataset.filled) || 0;
+                el.innerHTML = "";
+                for (let d = 0; d < total; d++) {
+                    const dot = document.createElement("span");
+                    dot.className = "dot" + (d < filled ? " dot-filled" : "");
+                    el.appendChild(dot);
+                }
+            });
+        }
+        renderDots();
+
+        // ── Nav switching ──
+        const navLinks  = document.querySelectorAll(".nav-links a");
+        const sections  = document.querySelectorAll(".content-section");
+        const hamburger = document.getElementById("hamburger");
+        const navMenu   = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("open");
+            navMenu.classList.toggle("open");
+        });
+
+        function showSection(id) {
+            sections.forEach(s => s.classList.remove("active"));
+            const target = document.querySelector(id);
+            if (target) target.classList.add("active");
+            hamburger.classList.remove("open");
+            navMenu.classList.remove("open");
+        }
+
+        navLinks.forEach(link => {
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
+                showSection(this.getAttribute("href"));
+            });
+        });
+
+        document.querySelector(".see-work-btn").addEventListener("click", e => {
+            e.preventDefault(); showSection("#projects");
+        });
+
+        document.querySelector(".contact-nav-btn").addEventListener("click", e => {
+            e.preventDefault(); showSection("#contact");
+        });
+
+        // ── Carousel ──
+        const carouselState = {};
+
+        function carouselInit(trackId) {
+            if (!carouselState[trackId]) carouselState[trackId] = { index: 0 };
+        }
+
+        function carouselGoTo(trackId, dotsId, index) {
+            carouselInit(trackId);
+            const track = document.getElementById(trackId);
+            const slides = track.querySelectorAll(".carousel-slide");
+            const total = slides.length;
+            index = (index + total) % total;
+            carouselState[trackId].index = index;
+            track.style.transform = `translateX(-${index * 100}%)`;
+            const dots = document.getElementById(dotsId).querySelectorAll(".cdot");
+            dots.forEach((d, i) => d.classList.toggle("active", i === index));
+        }
+
+        function carouselNext(trackId, dotsId) {
+            carouselInit(trackId);
+            carouselGoTo(trackId, dotsId, carouselState[trackId].index + 1);
+        }
+
+        function carouselPrev(trackId, dotsId) {
+            carouselInit(trackId);
+            carouselGoTo(trackId, dotsId, carouselState[trackId].index - 1);
+        }
+
+        // Auto-advance VORTEX carousel every 3.5s
+        setInterval(() => carouselNext('vortex-track', 'vortex-dots'), 3500);
+    </script>
+</body>
+</html>
